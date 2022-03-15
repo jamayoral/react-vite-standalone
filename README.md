@@ -34,6 +34,8 @@ $ npm run dev
 - `lint`: runs the linter in all components and pages
 - `test`: runs jest to test all components and pages
 - `test:watch`: runs jest in watch mode
+- `e2e:open`: run cypress in open mode
+- `e2e:run`: run cypress in run mode
 - `generate`: create a new component structured
 - `storybook`: runs storybook on `localhost:6006`
 - `storybook:build`: create the build version of storybook
