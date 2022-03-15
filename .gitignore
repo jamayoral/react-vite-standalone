@@ -30,3 +30,8 @@ yarn-error.log*
 
 # local env files
 *.local
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+.nyc_output

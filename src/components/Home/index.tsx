@@ -1,15 +1,13 @@
-import * as styles from './styles'
+import * as S from './styles'
 
 export type HomeProps = {
   name?: string
 }
 
 const Home = ({ name = 'React Vite Standalone' }: HomeProps) => (
-  <styles.Wrapper>
-    <div>
-      <h1>{name}</h1>
-    </div>
-  </styles.Wrapper>
+  <S.Wrapper>
+    <h1>{name}</h1>
+  </S.Wrapper>
 )
 
 export default Home

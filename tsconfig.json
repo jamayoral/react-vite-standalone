@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "types": [
+      "cypress",
+      "@testing-library/cypress"
+    ],
     "baseUrl": "src",
     "target": "ESNext",
     "useDefineForClassFields": true,

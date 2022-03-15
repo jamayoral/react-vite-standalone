@@ -1,0 +1,10 @@
+import { mount } from '@cypress/react'
+
+import {{pascalCase name}} from '.'
+
+describe('<{{pascalCase name}}/> ci', () => {
+  it('should render the {{pascalCase name}}', () => {
+    mount(<{{pascalCase name}} />)
+    cy.get('h1').contains('{{pascalCase name}}')
+  })
+})
